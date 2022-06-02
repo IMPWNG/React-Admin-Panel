@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
+import Sidebar from "../../components/sidebar/Sidebar";
 
-import "./home.scss"
+import "./home.scss";
 
 export default function Home() {
   return (
-    <div className='home'>
-    <h1 className='title'>Hello</h1>
+    <div className="home">
+      <Sidebar />
+      <div className="homeContainer">container</div>
     </div>
-  )
+  );
 }
